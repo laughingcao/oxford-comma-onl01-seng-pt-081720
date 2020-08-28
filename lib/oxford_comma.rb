@@ -7,6 +7,5 @@ elsif array.length >= 3
 array[-1].insert(-14, 'and ')
 return array.join(", ")
 
-
 end
 end
