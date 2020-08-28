@@ -5,7 +5,7 @@ elsif array.length == 2
 return array.join(" and ")
 elsif array.length >= 3
 array[-1].insert(-14, ' and ')
-return array.join(", ")
+return array.join(",")
 
 end
 end
