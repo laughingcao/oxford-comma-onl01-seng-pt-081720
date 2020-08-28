@@ -4,7 +4,7 @@ return "#{array[0]}"
 elsif array.length == 2
 return array.join(" and ")
 elsif array.length >= 3
-array[-2].insert(-1, 'and ')
+array[-2].insert(-1, ', and ')
 return array.join(", ")
 
 end
